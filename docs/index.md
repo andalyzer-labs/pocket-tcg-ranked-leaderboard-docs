@@ -1,0 +1,1 @@
+# Pocket TCG Ranked Leaderboard\n\nWelcome!\n
