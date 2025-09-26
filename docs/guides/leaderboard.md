@@ -1,1 +1,4 @@
-# Leaderboard\n\nDetails coming soon.\n
+# Leaderboard
+
+Details coming soon.
+

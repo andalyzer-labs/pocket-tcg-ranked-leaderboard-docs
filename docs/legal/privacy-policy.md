@@ -1,6 +1,6 @@
 # Privacy Policy
 **Pocket TCG Ranked Leaderboard**  
-**Effective Date:** 2025-01-01
+**Effective Date:** October 1, 2025
 
 This Privacy Policy explains how the Pocket TCG Ranked Leaderboard bot ("the Bot") processes information when used in Discord servers.
 

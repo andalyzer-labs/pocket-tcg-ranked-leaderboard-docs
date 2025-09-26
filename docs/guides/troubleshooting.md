@@ -1,1 +1,3 @@
-# Troubleshooting\n\nTips coming soon.\n
+# Troubleshooting
+
+Tips coming soon.

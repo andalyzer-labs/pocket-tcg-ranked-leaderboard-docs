@@ -1,6 +1,6 @@
 # Terms of Service
 **Pocket TCG Ranked Leaderboard**  
-**Effective Date:** 2025-01-01
+**Effective Date:** October 1, 2025
 
 These Terms govern your use of the Pocket TCG Ranked Leaderboard bot ("the Bot") on Discord.
 

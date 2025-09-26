@@ -1,1 +1,3 @@
-# Admin Setup\n\nInstructions coming soon.\n
+# Admin Setup
+
+Instructions coming soon.

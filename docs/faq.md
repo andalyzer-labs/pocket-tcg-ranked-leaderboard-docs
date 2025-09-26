@@ -1,1 +1,3 @@
-# FAQ\n\nComing soon.\n
+# FAQ
+
+Coming soon.

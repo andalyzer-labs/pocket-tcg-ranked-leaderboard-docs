@@ -1,1 +1,3 @@
-# Quickstart\n\nSetup steps coming soon.\n
+# Quickstart
+
+Setup steps coming soon.

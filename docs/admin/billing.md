@@ -1,1 +1,3 @@
-# Billing\n\nInfo coming soon.\n
+# Billing
+
+Info coming soon.
