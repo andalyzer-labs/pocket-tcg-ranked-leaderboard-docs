@@ -1,0 +1,42 @@
+site_name: Pocket TCG Ranked Leaderboard
+site_description: OCR-powered Discord bot for ranked screenshot leaderboards
+site_url: https://andalyzer-labs.github.io/pocket-tcg-ranked-leaderboard-docs/
+repo_url: https://github.com/andalyzer-labs/pocket-tcg-ranked-leaderboard
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - toc.integrate
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+nav:
+  - Home: index.md
+  - FAQ: faq.md
+  - Guides:
+      - Quickstart: guides/quickstart.md
+      - Leaderboard: guides/leaderboard.md
+      - Troubleshooting: guides/troubleshooting.md
+  - For Admins:
+      - Setup: admin/setup.md
+      - Billing: admin/billing.md
+  - Legal:
+      - Privacy Policy: legal/privacy-policy.md
+      - Terms of Service: legal/terms-of-service.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.snippets
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/
+    - icon: fontawesome/brands/github
+      link: https://github.com/analyzer-labs/pocket-tcg-ranked-leaderboard
