@@ -8,11 +8,7 @@ This guide will help you (the Discord server owner) set up and start using the S
 1. Click the invite link provided by the bot developer.  
 2. In the Discord prompt, select the server you want to add the bot to.  
 3. You must have **Administrator** permissions.  
-4. Authorize the bot with the requested permissions:  
-   - Read Messages  
-   - Send Messages  
-   - Attach Files  
-   - Use Slash Commands  
+4. Authorize the bot with the requested permissions: Read Messages, Send Messages, Attach Files, Use Slash Commands  
 
 Once authorized, the bot will appear in your server’s member list.
 
@@ -118,3 +114,4 @@ When a new competitive season begins, you can reset the leaderboard to start fre
 ---
 
 🎉 That’s it! Your server is now ready to compete with the Screenshot Analysis Bot. Upload screenshots, track rankings, and enjoy the competition.
+
