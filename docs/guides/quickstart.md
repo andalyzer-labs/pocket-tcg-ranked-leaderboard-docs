@@ -7,8 +7,8 @@ This guide will help you (the Discord server owner) set up and start using the S
 ## Step 1. Invite the Bot
 1. Click the invite link provided by the bot developer.  
 2. In the Discord prompt, select the server you want to add the bot to.  
-   - You must have **Administrator** permissions.  
-3. Authorize the bot with the requested permissions:  
+3. You must have **Administrator** permissions.  
+4. Authorize the bot with the requested permissions:  
    - Read Messages  
    - Send Messages  
    - Attach Files  
@@ -55,7 +55,6 @@ Players can now upload their rank screenshots in any channel where the bot is ac
 ---
 
 ## Step 5. Submit a Screenshot (Players)
-
 Players should use the `/submit` command to upload their ranked battle screenshot. This ensures the bot analyzes and records the result.
 
 ### How to Submit
@@ -80,9 +79,9 @@ Example:
 ```
 ✅ Screenshot submitted!
 Player: @username
-Points: 860
-Placement: #243
-League: Ultra Ball Rank 2
+Points: 2450
+Placement: #5845
+League: Master Ball 
 ```
 
 ---
@@ -90,6 +89,22 @@ League: Ultra Ball Rank 2
 ## Step 6. Track the Leaderboard
 - The leaderboard channel will update as members upload new screenshots.  
 - Everyone can see points, placement, and current season standings.  
+
+---
+
+## Step 7. Resetting for a New Season
+When a new competitive season begins, you can reset the leaderboard to start fresh.
+
+1. Run the command:
+   ```bash
+   /setseason <new_season_number>
+   ```
+   Example:
+   ```bash
+   /setseason A4c
+   ```
+2. The bot will archive the old season’s data and begin tracking the new season.  
+3. Announce to your community that the new season has started so players can begin submitting screenshots again.
 
 ---
 
