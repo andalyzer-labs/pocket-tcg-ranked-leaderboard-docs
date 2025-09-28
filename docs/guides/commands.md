@@ -10,6 +10,7 @@ Use this page to find every slash command exposed by the Pocket TCG Ranked Leade
 | `/setseason` | `season` (text) | Admins with **Manage Server** | Sets the active season code for the server and refreshes any pinned leaderboards. |
 | `/setboard` | — | Admins with **Manage Server** | Creates or refreshes the pinned leaderboard message in the current channel. |
 | `/submit` | `image` (screenshot), `debug` (optional) | Anyone | OCRs a ranked screenshot, updates the database, and refreshes guild leaderboards. |
+| `/history ` | `season` (optional) | Anyone | Sends an ephemeral list of your most recent submissions for the season (timestamp, rank, placement, points), inferring rank from points when the stored rank is missing |
 | `/remove_last` | `season` (optional) | Anyone | Removes your most recent submission for the chosen (or current) season. |
 | `/remove_all` | `confirm` (true/false), `season` (optional) | Anyone | Deletes all of your submissions for the chosen (or current) season once confirmed. |
 | `/leaderboard` | `season` (optional), `page` (number) | Anyone | Shows an embed with the selected leaderboard page for the season. |
