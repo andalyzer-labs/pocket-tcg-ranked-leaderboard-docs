@@ -12,11 +12,6 @@ nav:
   - Guides:
       - Quickstart: guides/quickstart.md
       - Commands: guides/commands.md
-      - Leaderboard: guides/leaderboard.md
-      - Troubleshooting: guides/troubleshooting.md
-  - For Admins:
-      - Setup: admin/setup.md
-      - Billing: admin/billing.md
   - Legal:
       - Privacy Policy: legal/privacy-policy.md
       - Terms of Service: legal/terms-of-service.md
@@ -27,4 +22,5 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.snippets
+
 
