@@ -13,20 +13,6 @@ A: The bot is guild-scoped, so every server gets an isolated leaderboard, season
 **Q: Where can I find policies or long-form documentation?**  
 A: Terms of Service, the Privacy Policy, admin guides, and other docs live at the project documentation site: <https://andalyzer-labs.github.io/pocket-tcg-ranked-leaderboard-docs/>.
 
-## Hosting & Setup
-
-**Q: What do I need to self-host the bot?**  
-A: Install Python 3, pip install -r requirements.txt, and install the native Tesseract OCR binary with English, Japanese, Korean, and Simplified/Traditional Chinese language packs (the bot enables all of them by default). Provide a Discord bot token through the DISCORD_BOT_TOKEN environment variable or a local .env file, and then run python bot.py.
-
-**Q: Does the bot store any data?**  
-A: Yes. Submissions are written to the local SQLite database file leaderboard.db. Each row stores guild ID, user ID, display name, season code, points, placement, and a timestamp. Screenshot files themselves are not saved—only the structured stats extracted from them.
-
-**Q: How do I reset or delete the database?**  
-A: Stop the bot and delete (or archive) leaderboard.db. A fresh database will be created automatically at launch. Remember that this purges every submission and board state for every server.
-
-**Q: How can I confirm OCR prerequisites are ready?**  
-A: Run /diag in any server where the bot is present. It reports the detected Pillow/pytesseract versions and the Tesseract executable path/version so you can verify that the OCR stack is reachable.
-
 ## Server Owner & Mod Workflow
 
 **Q: How do I set the active season for my server?**  
