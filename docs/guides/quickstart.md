@@ -19,7 +19,7 @@ The bot needs to know which channel will be used for leaderboard updates.
 
 1. Navigate to the channel you want to use for leaderboard posts.  
 2. Run the command:  
-   ```bash
+   ```
    /setboard
    ```  
 3. The bot will confirm that the leaderboard is now linked to the channel.
@@ -30,11 +30,11 @@ The bot needs to know which channel will be used for leaderboard updates.
 The bot tracks rankings by season. You must define the season before players can start competing.  
 
 1. Run the command:  
-   ```bash
+   ```
    /setseason <season_number>
    ```  
    Example:  
-   ```bash
+   ```
    /setseason A4b
    ```  
 2. The bot will confirm the season is active.
@@ -55,7 +55,7 @@ Players should use the `/submit` command to upload their ranked battle screensho
 
 ### How to Submit
 1. Type the command:
-   ```bash
+   ```
    /submit
    ```
 2. Attach your screenshot before sending the message.  
@@ -92,11 +92,11 @@ League: Master Ball
 When a new competitive season begins, you can reset the leaderboard to start fresh.
 
 1. Run the command:
-   ```bash
+   ```
    /setseason <new_season_number>
    ```
    Example:
-   ```bash
+   ```
    /setseason A4c
    ```
 2. The bot will archive the old season’s data and begin tracking the new season.  
@@ -114,4 +114,5 @@ When a new competitive season begins, you can reset the leaderboard to start fre
 ---
 
 🎉 That’s it! Your server is now ready to compete with the Screenshot Analysis Bot. Upload screenshots, track rankings, and enjoy the competition.
+
 
