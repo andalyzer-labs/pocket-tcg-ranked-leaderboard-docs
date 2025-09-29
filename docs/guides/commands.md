@@ -62,6 +62,19 @@ Run this in the channel where you want the pinned leaderboard embed to live.
 - Saves the submission in SQLite and updates the in-memory leaderboard snapshot.
 - Sends you a recap of your latest stats and refreshes every tracked leaderboard message in the guild.
 
+### `/history`
+
+Arguments:
+- `season` (optional): Defaults to the current season.
+
+Behavior:
+- Fetches your recent submissions for the chosen (or current) season.  
+- Displays them as an ephemeral list including timestamp, rank, placement, and points.  
+- If the stored rank is missing, the bot infers the rank from your points.
+
+Use this to quickly review your personal match history for the season.
+
+
 ### `/remove_last`
 *Arguments*: `season` (optional) — defaults to the current season.
 
