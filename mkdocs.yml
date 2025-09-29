@@ -1,5 +1,5 @@
 site_name: Pocket TCG Ranked Leaderboard
-site_url: https://analyzer-labs.github.io/pocket-tcg-ranked-leaderboard-docs/
+site_url: https://andalyzer-labs.github.io/pocket-tcg-ranked-leaderboard-docs/
 
 # Make it explicit
 docs_dir: docs
@@ -22,6 +22,7 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.snippets
+
 
 
 
