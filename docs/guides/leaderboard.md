@@ -1,4 +1,0 @@
-# Leaderboard
-
-Details coming soon.
-

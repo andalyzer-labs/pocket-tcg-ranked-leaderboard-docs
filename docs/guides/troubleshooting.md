@@ -1,3 +1,0 @@
-# Troubleshooting
-
-Tips coming soon.

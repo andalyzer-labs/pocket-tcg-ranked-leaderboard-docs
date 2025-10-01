@@ -1,3 +1,0 @@
-# Billing
-
-Info coming soon.
