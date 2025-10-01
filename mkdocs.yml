@@ -7,11 +7,9 @@ docs_dir: docs
 theme:
   name: material
 nav:
-  - Home: index.md
+  - Quickstart: quickstart.md
+  - Commands: commands.md
   - FAQ: FAQ.md
-  - Guides:
-      - Quickstart: guides/quickstart.md
-      - Commands: guides/commands.md
   - Legal:
       - Privacy Policy: legal/privacy-policy.md
       - Terms of Service: legal/terms-of-service.md
@@ -22,6 +20,7 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.snippets
+
 
 
 
