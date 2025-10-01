@@ -16,10 +16,10 @@ A: Terms of Service, the Privacy Policy, admin guides, and other docs live at th
 ## Server Owner & Mod Workflow
 
 **Q: How do I set the active season for my server?**  
-A: Run <code>/setseason</code> (e.g., /setseason A4A). The bot records the season per guild and reapplies it whenever new submissions arrive. If players upload a screenshot that shows a different season code, the bot automatically adopts the detected value and uses it going forward.
+A: Run <code>/admin_setseason</code> (e.g., /admin_setseason A4A). The bot records the season per guild and reapplies it whenever new submissions arrive. If players upload a screenshot that shows a different season code, the bot automatically adopts the detected value and uses it going forward.
 
 **Q: How do I create the pinned leaderboard message?**  
-A: In the channel where you want the board, run <code>/setboard</code>. The bot checks permissions, creates (or refreshes) the pinned embed, and saves the board state for that channel. If it cannot pin automatically, you can pin the message manually afterward.
+A: In the channel where you want the board, run <code>/admin_setboard</code>. The bot checks permissions, creates (or refreshes) the pinned embed, and saves the board state for that channel. If it cannot pin automatically, you can pin the message manually afterward.
 
 **Q: Can I view the leaderboard without the pinned message?**  
 A: Yes. Use <code>/leaderboard</code> to get an ephemeral embed of the latest standings for any season and page. The pinned message stays in sync, but the command is handy for quick lookups.
@@ -61,6 +61,6 @@ A: Only the Discord user ID, display name, guild ID, season code, points, placem
 A: <code>/remove_last</code> and <code>/remove_all</code> let players manage their own entries. Server admins can also archive or delete the SQLite file if they need a full reset.
 
 **Q: Who can run admin commands?**  
-A: <code>/setseason</code> and <code>/setboard</code> are restricted to members with the **Manage Guild** permission. All other commands work for regular server members in channels where the bot can respond.
+A: Commands such as <code>/admin_setseason</code> and <code>/admin_setboard</code> are restricted to members with the **Manage Guild** permission. All other commands work for regular server members in channels where the bot can respond.
 
 For anything not covered here, visit the documentation site or open an issue on the GitHub repository.

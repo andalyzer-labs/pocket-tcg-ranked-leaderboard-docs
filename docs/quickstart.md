@@ -1,4 +1,4 @@
-# Quick Start Guide – Screenshot Analysis Bot
+# Quick Start Guide – Pocket TCG Ranked Leaderboard Bot
 
 This guide will help you (the Discord server owner) set up and start using the Screenshot Analysis Bot to track player rankings.
 
@@ -20,7 +20,7 @@ The bot needs to know which channel will be used for leaderboard updates.
 1. Navigate to the channel you want to use for leaderboard posts.  
 2. Run the command:  
    ```
-   /setboard
+   /admin_setboard
    ```  
 3. The bot will confirm that the leaderboard is now linked to the channel.
 
@@ -31,11 +31,11 @@ The bot tracks rankings by season. You must define the season before players can
 
 1. Run the command:  
    ```
-   /setseason <season_number>
+   /admin_setseason <season_number>
    ```  
    Example:  
    ```
-   /setseason A4b
+   /admin_setseason A4b
    ```  
 2. The bot will confirm the season is active.
 
@@ -46,7 +46,7 @@ Players can now upload their rank screenshots in any channel where the bot is ac
 
 - When a screenshot is posted, the bot analyzes it automatically.  
 - It extracts **points, placement, and league tier** (Poké Ball, Great Ball, Ultra Ball, Master Ball).  
-- The bot posts results and updates the leaderboard in the channel you configured with `/setboard`.
+- The bot posts results and updates the leaderboard in the channel you configured with `/admin_setboard`.
 
 ---
 
@@ -93,11 +93,11 @@ When a new competitive season begins, you can reset the leaderboard to start fre
 
 1. Run the command:
    ```
-   /setseason <new_season_number>
+   /admin_setseason <new_season_number>
    ```
    Example:
    ```
-   /setseason A4c
+   /admin_setseason A4c
    ```
 2. The bot will archive the old season’s data and begin tracking the new season.  
 3. Announce to your community that the new season has started so players can begin submitting screenshots again.
@@ -106,10 +106,12 @@ When a new competitive season begins, you can reset the leaderboard to start fre
 
 ## Useful Commands
 - `/help` → Show available commands  
-- `/setboard` → Assign the leaderboard channel  
-- `/setseason <number>` → Start or switch to a new season  
+- `/admin_setboard` → Assign the leaderboard channel  
+- `/admin_setseason <number>` → Start or switch to a new season  
 - `/submit` → Upload a screenshot for analysis  
 - `/ping` → Check if the bot is online  
+
+Review the [Commands reference](commands.md) for every slash command and permission note.
 
 ---
 
