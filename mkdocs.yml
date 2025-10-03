@@ -8,9 +8,11 @@ theme:
   name: material
 nav:
   - Home: index.md
+  - Change Log: ChangeLog.md
   - Quickstart: quickstart.md
   - Commands: commands.md
   - FAQ: FAQ.md
+  - Support: support.md
   - Legal:
       - Privacy Policy: legal/privacy-policy.md
       - Terms of Service: legal/terms-of-service.md
