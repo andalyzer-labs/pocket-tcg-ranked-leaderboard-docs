@@ -1,6 +1,6 @@
 ﻿# Pocket TCG Ranked Leaderboard — Public Release Notes
 
-## Season A4B — 2025-10-11 (v0.2.0)
+## Season A4B — October 11, 2025 (v0.2.0)
 - New ephemeral, paginated /leaderboard view with Prev/Next buttons. Browsing is private and does not change the pinned board’s stored page.
 - Placement is now shown only for Master Ball entries; Ultra/Great/Poke entries omit placement to reduce confusion.
 - Rank tier details are displayed for non‑Master groups when available (e.g., “Ultra Ball Rank 2”); when rank text is missing, the tier is inferred from points.
